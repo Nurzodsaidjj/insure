@@ -1,0 +1,45 @@
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 33px;
+}
+@mixin link {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration-skip-ink: none;
+  color: var(--c2-a);
+}
+@mixin heroSpan {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--c1-a);
+}
+@mixin heroTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--c1-a);
+}
+@mixin button {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--c1-a);
+  border-radius: 12px;
+  padding: 6px 16px;
+  background: var(--c1-f);
+  margin-top: 55px;
+}
+@mixin productBtn {
+  border: 2px solid var(--c2-b);
+  border-radius: 12px;
+  padding: 12px;
+  background: var(--c2-a);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--c1-j);
+}
