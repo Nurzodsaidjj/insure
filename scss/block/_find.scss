@@ -1,0 +1,71 @@
+.find{
+    padding-bottom: 70px;
+    background-image: url(../../img/find_bcg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.find__content{
+    width: 279px;
+    display: block;
+    margin: 0 auto;
+      padding-top: 72px;
+}
+.find__title{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: -0.01em;
+text-align: center;
+color: #fff;
+margin-bottom: 40px;
+}
+.find__btn{
+    border: 1.50px solid #fff;
+    background-color: transparent;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 0.12em;
+text-align: center;
+color: #fff;
+padding: 13px 25px;
+display: block;
+margin: 0 auto;
+}
+@media screen and (min-width:768px) {
+  .find__content {
+  max-width: 949px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 20px 0;
+  flex-wrap: wrap;
+
+}
+    .find__title{
+        font-family: var(--second-family);
+font-weight: 400;
+font-size: 56px;
+line-height: 100%;
+letter-spacing: -0.01em;
+color: #fff;
+}
+    .find__btn{
+        padding: 12px 24px;
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 0.12em;
+text-align: center;
+color: #2c2830;
+border: 1.50px solid #fff;
+background: #fff;
+ flex-shrink: 0;
+  white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+    }
+}
